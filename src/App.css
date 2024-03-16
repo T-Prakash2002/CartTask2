@@ -10,15 +10,17 @@
   place-content: center;
 }
 .col{
-  max-width: fit-content;
+  min-width: 300px;
+  max-width: 350px;
+  gap: 30px;
 }
 .card{
-  width:350px;
+  min-width:300px;
   height: 450px;  
 }
 
 .card-img-top{
-  width:300px;
+  
   height: 250px;
 }
 .card-body{

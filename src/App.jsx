@@ -75,9 +75,11 @@ const App=()=> {
         </div>
       <section className='py-5'>
         
-          <div className="row gx-4 gx-lg-5 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-center"> 
+          <div className="row justify-content-center"> 
               
               {
+                //gx-4 gx-lg-5 row-cols-md-2 row-cols-lg-3 row-cols-xl-4
+                  
                 product.map((product,index)=>{
                  return <Card key={index} text={text} handleButtonClick={handleButtonClick} data={product} cardItem={cart} />
                 })
