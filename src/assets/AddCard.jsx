@@ -6,8 +6,8 @@ function Card({text,handleButtonClick,data,cart}){
 
 
     return(
-        <div className="col pb-3" key={data.id}>
-                     <div className="card p-3 h-100 shadow border-0" >
+
+            <div className="card p-3  h-100 shadow border-0" key={data.id}>
                         
                             <img src={data.image} className="card-img-top" alt="..."/>
                         
@@ -30,7 +30,6 @@ function Card({text,handleButtonClick,data,cart}){
                     </div>
 
                 </div>
-            </div>
     )
 
 }

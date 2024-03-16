@@ -9,6 +9,9 @@
   display: grid;
   place-content: center;
 }
+.col{
+  max-width: fit-content;
+}
 .card{
   width:350px;
   height: 450px;  
